@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import App from './app';
 import reportWebVitals from './reportWebVitals';
+// fontAwesome
+import '@fortawesome/fontawesome-free/js/all.js';
+import SimpleHabit from './components/simpleHabit';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
